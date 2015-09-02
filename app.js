@@ -86,8 +86,3 @@ var Spreadsheet = function(spreadsheetId) {
 };
 
 module.exports = Spreadsheet;
-
-var spreadsheet = new Spreadsheet('126o06NkYz3rLRrIbzKAeLtrK-4a_Eosccmoser11hnk');
-spreadsheet.defaultWorksheet(function(err, res) {
-  console.log(res);
-});
